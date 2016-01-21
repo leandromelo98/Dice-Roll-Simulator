@@ -54,7 +54,7 @@ def runDice():
         sys.exit()
 
 def runProgram():
-#This is what the user will see
+#This is what the user will see. if the user type y the dice will roll or the user type n the simulator will exit
     print "Run the program? [y/n]\n:"
     cmd = raw_input()
     if cmd == "n":
